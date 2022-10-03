@@ -1,0 +1,50 @@
+.description {
+    margin-left: 10px;
+    width: 200px;
+    height: 80px;
+    display: inline-block;
+}
+
+img, .description, button{
+    vertical-align: middle;
+}
+
+* {
+    font-family: Arial;
+}
+
+p{
+    line-height: 10px;
+    font-size: 13px;
+}
+
+.name, .animal{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.animal, .popular{
+    color: grey;
+}
+
+.popular{
+    font-size: 12px;
+}
+
+img{
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+}
+
+button{
+    background-color: rgb(47, 120, 222);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 14px;
+    font-weight: bold;
+    vertical-align: middle;
+}

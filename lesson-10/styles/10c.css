@@ -1,0 +1,42 @@
+.video-container{
+    padding: 5px;
+}
+
+.thumbnail{
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.thumbnail,
+.description{
+    display: inline-block;
+    vertical-align: top;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Arial;
+    line-height: 20px;
+}
+
+.user, .stats{
+    color: rgb(62, 62, 62);
+    font-size: 14px;
+}
+
+.user{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.description{
+    width: 250px;
+    padding: 5px;
+}
+
+.title{
+    font-weight: 600;
+}
