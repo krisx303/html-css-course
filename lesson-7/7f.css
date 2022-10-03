@@ -1,0 +1,23 @@
+* {
+    font-family: Arial;
+}
+
+p{
+    color: rgb(82, 82, 82);
+}
+
+input{
+    height: 25px;
+    width: 400px;
+    border: solid grey 2px;
+    border-radius: 5px;
+}
+
+button{
+    background-color: rgb(60, 100, 215);
+    border: none;
+    color: white;
+    padding: 15px 150px;
+    font-size: 18px;
+    border-radius: 30px;
+}
