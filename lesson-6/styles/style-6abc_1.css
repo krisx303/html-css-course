@@ -1,0 +1,25 @@
+p{
+    font-family: Arial;
+    font-size: 18px;
+    width: 600px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.user-bold{
+    font-weight: bold;
+    color:black
+}
+
+.user-info{
+    color: rgb(103, 103, 103);
+    margin-bottom: 8px;
+}
+
+.bottom{
+    margin-top: 12px;
+}
+
+.blue{
+    color:rgb(64, 149, 223)
+}
