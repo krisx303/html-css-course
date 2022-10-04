@@ -1,0 +1,30 @@
+p{
+    font-family: Arial;
+    margin: 13px 0;
+}
+
+.list{
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+    width: fit-content;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    justify-content: space-between;
+    padding: 0px 10px;
+
+}
+
+.count{
+    height: fit-content;
+    border: none;
+    background-color: rgb(61, 118, 240);
+    color: white;
+    border-radius: 15px;
+    padding: 5px 12px;
+}

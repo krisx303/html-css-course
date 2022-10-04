@@ -1,0 +1,44 @@
+.profile-picture{
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+p{
+    font-family: Arial;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-bottom: 8px;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.surname,
+.popular{
+    color: grey;
+}
+
+.description{
+    flex: 1;
+    max-width: 200px;
+}
+
+.follow{
+    background-color: rgb(36, 170, 247);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 9px 15px;
+    font-size: 16px;
+    font-weight: bold;
+}

@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: rgb(120, 82, 178);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+p{
+    font-family: Arial;
+}
+
+.search{
+    border-radius: 20px;
+    border: none;
+    flex: 1;
+    max-width: 450px;
+    font-size: 15px;
+    padding: 6px 15px;
+    margin: 0px 10px;
+}
+
+.home{
+    color: white;
+}
+
+.download{
+    background-color: rgb(120, 82, 178);
+    border: solid white 1.5px;
+    border-radius: 2px;
+    color: white;
+    padding: 8px 18px;
+}
