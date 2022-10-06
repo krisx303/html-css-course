@@ -1,0 +1,65 @@
+.profile-picture{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.container{
+    width: 460px;
+    height: 200px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header{
+    margin-top: 7px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+}
+
+.message{
+    margin-bottom: 10px;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    border: solid rgb(192, 192, 192) 1px;
+    border-radius: 20px;
+    height: 100px;
+}
+
+.link-body{
+    flex: 1;
+    padding: 15px 12px;
+    font-size: 17px;
+}
+
+.address{
+    color: grey;
+    margin-bottom: 8px;
+}
+
+.video-thumbnail{
+    background-color: rgb(192, 192, 192);
+    width: 100px;
+    height: 100%;
+    border-radius: 18px 0 0 18px;
+}
+
+*{
+    font-family: Arial;
+}
+
+.user-mark{
+    color: gray;
+}
+
+.user-bold{
+    font-weight: bold;
+    margin-right: 7px;
+}

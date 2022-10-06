@@ -1,0 +1,56 @@
+.profile-picture{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.container{
+    /* border: solid grey 1px; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+    width: 460px;
+    border-radius: 6px;
+    padding: 8px 20px 22px 20px;
+}
+
+* {
+    font-family: Arial;
+}
+
+.message{
+    display: flex;
+    padding: 10px 0px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.message-body{
+    flex: 1;
+}
+
+.category,
+.title{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.category{
+    font-size: 20px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.picture-container{
+    margin-right: 10px;
+}
+
+.all,
+.content,
+.time{
+    color: grey;
+}
